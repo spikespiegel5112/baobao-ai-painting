@@ -1,0 +1,172 @@
+.dark {
+  .layout_container {
+    background-color: #151515;
+    .header {
+      color: #ccc;
+      border-bottom: 1px solid #666;
+      .content {
+        .ant-col {
+          .menu {
+            ul {
+              li {
+                &.active {
+                  a {
+                    background-color: #444;
+                  }
+                }
+                a {
+                  color: #ccc;
+
+                  &:hover {
+                    border-color: #444;
+                  }
+                }
+              }
+            }
+          }
+          .settings {
+            li {
+              a {
+                color: #ccc;
+              }
+              span {
+                color: #ccc;
+              }
+
+              &:hover {
+                a {
+                  color: #fff;
+                }
+                span {
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .mask {
+        background-color: rgba(0, 0, 0, 0.7);
+        &:before {
+          background-color: rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+
+  .generator_container {
+    .chat_container {
+      background-color: linear-gradient(180deg, #000, #0a0a0a);
+      .main {
+        .content {
+          .prompt_container {
+            .el-tabs {
+              .el-tabs__content {
+                .el-tab-pane {
+                  .el-scrollbar {
+                    .block {
+                      > h5 {
+                        background-color: #333;
+                        color: #ccc;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .setting {
+            .input_container {
+              .promptarea {
+                background-color: #000;
+                border: 1px solid #454545;
+                &:hover {
+                  border: 1px solid #666;
+                }
+              }
+              .ratiosettings {
+                li {
+                  &:hover {
+                    .outer {
+                      border: 1px solid #fff;
+                    }
+                  }
+
+                  &.active:hover {
+                    .outer {
+                      border: 1px solid #409eff;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .previewlist_wrapper {
+            h1 {
+              color: #ccc;
+            }
+            ul {
+              li {
+                &.active {
+                  border-color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .previewpromptdialog_container {
+    .content {
+      .h5 {
+        color: #999;
+      }
+      .el-scrollbar {
+        .custompositiveprompt {
+          .empty {
+            color: #999;
+          }
+          p {
+            color: #ddd;
+          }
+        }
+
+        .prompt_wrapper {
+          ul {
+            li {
+              color: #ccc;
+            }
+          }
+        }
+      }
+      .aside {
+        ul {
+          li {
+            color: #ccc;
+          }
+        }
+      }
+    }
+  }
+  .gallery_container {
+    .el-scrollbar {
+      .grid {
+        .grid-item {
+          &:hover {
+            img {
+              border-color: #fff !important;
+            }
+          }
+        }
+        .mask {
+          background-color: #000;
+        }
+        .empty {
+          color: #ccc;
+        }
+      }
+    }
+  }
+}

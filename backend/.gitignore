@@ -1,0 +1,10 @@
+.DS_Store
+
+.idea
+venv/
+misc/
+__pycache__/
+/models/
+*.safetensor
+*.jpg
+*.log
